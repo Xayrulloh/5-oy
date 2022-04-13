@@ -1,0 +1,44 @@
+Rest API
+Graphql API
+
+graph query language
+
+Types
+1. Object Types
+    * built-in object types (Query, Mutation, Subscription)
+    * custom object types
+2. Scalar Types
+    * built-in scalar types (ID, String, Int, Float, Boolean)
+    * custom scalar type
+        * with type check
+        * without type check
+3. Enum Types
+4. Interface
+5. Union
+6. Input
+
+schema -> resolver
+
+
+
+
+vazifa
+
+Query {
+    users: [User]
+    orders: [Order]
+    foods: [Food]
+}
+
+users 
+    userId 
+    username
+
+orders
+    orderId
+    foodId
+    userId
+    count
+
+foods 
+    foodId  
