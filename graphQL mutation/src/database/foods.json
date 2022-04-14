@@ -1,0 +1,37 @@
+[
+    {
+        "foodId": 1,
+        "foodname": "Cola",
+        "foodImg": "./img/cola.jpeg"
+    },
+    {
+        "foodId": 2,
+        "foodname": "Fanta",
+        "foodImg": "./img/fanta.jpeg"
+    },
+    {
+        "foodId": 3,
+        "foodname": "Chicken",
+        "foodImg": "./img/chicken.jpeg"
+    },
+    {
+        "foodId": 4,
+        "foodname": "Hot dog",
+        "foodImg": "./img/hotdog.jpeg"
+    },
+    {
+        "foodId": 6,
+        "foodname": "Noodless",
+        "foodImg": "./img/noodless.jpeg"
+    },
+    {
+        "foodId": 7,
+        "foodname": "Cheese",
+        "foodImg": "./img/cheese.jpeg"
+    },
+    {
+        "foodId": 8,
+        "foodname": "Pepsi",
+        "foodImg": "./img/pepsi.jpeg"
+    }
+]
