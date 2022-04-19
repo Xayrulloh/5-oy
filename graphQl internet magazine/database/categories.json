@@ -1,0 +1,14 @@
+[
+    {
+        "categoryId": 1,
+        "categoryname": "sport"
+    },
+    {
+        "categoryId": 2,
+        "categoryname": "kitchen"
+    },
+    {
+        "categoryId": 3,
+        "categoryname": "News"
+    }
+]

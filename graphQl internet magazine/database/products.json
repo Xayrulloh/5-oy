@@ -1,0 +1,30 @@
+[
+    {
+        "productId": 1,
+        "categoryId": 1,
+        "productname": "krasovka",
+        "price": 100000,
+        "shortDesc": "mazza qib yugurib yuras",
+        "longDesc": "mazza qib yugurasila iwonin",
+        "picture": "krasovka.jpg"
+    },
+    {
+        "productId": 2,
+        "categoryId": 2,
+        "productname": "skavarodka",
+        "price": 50000,
+        "shortDesc": "tuxum piwiriwga zor",
+        "longDesc": "ubu kimmi ursayam boladi",
+        "picture": "skavarodka.jpg",
+        "categories": "2"
+    },
+    {
+        "productId": 3,
+        "categoryId": 3,
+        "productname": "futbolka",
+        "price": 70000,
+        "shortDesc": "Yozgi koyne",
+        "longDesc": "yozda kiyiwga cotki narsa",
+        "picture": "futbolka.jpg"
+    }
+]

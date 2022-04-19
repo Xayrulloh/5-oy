@@ -1,0 +1,26 @@
+[
+    {
+        "userId": 1,
+        "username": "Xayrulloh",
+        "password": "aaaa",
+        "contact": "998900088213",
+        "email": "xayrullohabduvohidov713@gmail.com",
+        "role": "user"
+    },
+    {
+        "userId": 3,
+        "username": "Donishmand",
+        "password": "xx2002abd",
+        "contact": "998900022212",
+        "email": "donishmand@gmail.com",
+        "role": "admin"
+    },
+    {
+        "userId": 2,
+        "username": "Sayfulloh",
+        "password": "okay",
+        "contact": "998900088213",
+        "email": "sayfulloh@gmail.com",
+        "role": "user"
+    }
+]
