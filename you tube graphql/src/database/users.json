@@ -1,0 +1,20 @@
+[
+    {
+        "userId": 1,
+        "username": "alisher",
+        "password": "7802b241e083493b8fd9cdc99169c450",
+        "userImg": "avatar.jpg"
+    },
+    {
+        "userId": 2,
+        "username": "nigora",
+        "password": "7802b241e083493b8fd9cdc99169c450",
+        "userImg": "avatarka.jpg"
+    },
+    {
+        "userId": 3,
+        "username": "Xayrulloh",
+        "password": "eca7579cdd15b362e47b55ffe8a600e9",
+        "userImg": "vahaha.jpg"
+    }
+]

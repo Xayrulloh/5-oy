@@ -1,0 +1,23 @@
+{
+  "name": "dars-48",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon -e * src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.9",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "express": "^4.17.3",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0"
+  }
+}
