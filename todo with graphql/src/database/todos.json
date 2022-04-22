@@ -1,0 +1,47 @@
+[
+    {
+        "todoId": 1,
+        "todoBody": "uxlash kerak...",
+        "userId": 1
+    },
+    {
+        "todoId": 2,
+        "todoBody": "yotish kerak...",
+        "userId": 1
+    },
+    {
+        "todoId": 3,
+        "todoBody": "idishlarni yuvish kerak...",
+        "userId": 2
+    },
+    {
+        "todoId": 7,
+        "todoBody": "hello world",
+        "userId": 1
+    },
+    {
+        "todoId": 8,
+        "todoBody": "hello world",
+        "userId": 1
+    },
+    {
+        "todoId": 9,
+        "todoBody": "hello world",
+        "userId": 1
+    },
+    {
+        "todoId": 10,
+        "todoBody": "hello world",
+        "userId": 1
+    },
+    {
+        "todoId": 11,
+        "todoBody": "hello world",
+        "userId": 1
+    },
+    {
+        "todoId": 12,
+        "todoBody": "hello world",
+        "userId": 1
+    }
+]

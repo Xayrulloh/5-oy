@@ -1,0 +1,21 @@
+# scalars without type check
+scalar Link
+scalar Token
+
+# scalar with type check
+scalar Upload
+
+union AnyType = User | Todo
+
+type Response {
+    status: Int!
+    message: String!
+    data: AnyType
+}
+
+type AuthResponse {
+    status: Int!
+    message: String!
+    token: Token
+    data: AnyType
+}

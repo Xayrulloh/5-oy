@@ -1,0 +1,2 @@
+process.env.PORT = process.env.PORT || 4000
+process.env.JWT_SECRET_KEY = 'SECRET_KEY'

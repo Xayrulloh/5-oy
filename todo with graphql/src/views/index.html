@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Document</title>
+    <style>
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 120px;
+        }
+        
+        .form {
+            display: flex;
+        }
+        
+        .form * {
+            padding: 5px 15px;
+            font-size: 25px;
+        }
+        
+        .form input {
+            flex-grow: 1;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style-type: none;
+            flex-direction: column;
+            margin-top: 25px;
+        }
+        
+        ul li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border: 1px solid grey;
+            margin-bottom: 5px;
+            font-size: 23px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="form">
+            <input type="text" placeholder="Enter To Do">
+            <button id="btn">Add</button>
+        </div>
+        <ul>
+            <!-- <li class="item">
+                <span>lorem</span>
+                <button>X</button>
+            </li>
+            <li class="item">
+                <span>lorem</span>
+                <button>X</button>
+            </li>
+            <li class="item">
+                <span>lorem</span>
+                <span>lorem</span>
+                <button>X</button>
+            </li> -->
+        </ul>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+
+</html>

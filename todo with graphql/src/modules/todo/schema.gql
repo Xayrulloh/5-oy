@@ -1,0 +1,15 @@
+type Query {
+    todos: [Todo!]!
+}
+
+type Mutation {
+    addTodo(todoBody: String): Response!
+    changeTodo(todoId: ID! todoBody: String!): Response!
+    deleteTodo(todoId: ID!): Response!
+}
+
+type Todo {
+    todoId: ID!
+    todoBody: String!
+    user: User!
+}

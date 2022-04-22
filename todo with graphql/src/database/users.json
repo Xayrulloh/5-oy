@@ -1,0 +1,26 @@
+[
+    {
+        "userId": 1,
+        "username": "alisher",
+        "password": "7802b241e083493b8fd9cdc99169c450",
+        "userImg": "avatar.jpg"
+    },
+    {
+        "userId": 2,
+        "username": "nigora",
+        "password": "7802b241e083493b8fd9cdc99169c450",
+        "userImg": "avatarka.jpg"
+    },
+    {
+        "userId": 3,
+        "password": "81dc9bdb52d04dc20036dbd8313ed055",
+        "userImg": "1650458212908image_2020-12-06_21-59-37.png",
+        "username": "alijon"
+    },
+    {
+        "userId": 4,
+        "password": "81dc9bdb52d04dc20036dbd8313ed055",
+        "userImg": "1650458566775pexels-kristya-nugraha-1413100.jpg",
+        "username": "nosirjon"
+    }
+]
