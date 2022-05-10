@@ -1,0 +1,14 @@
+type Query {
+    users(
+        pagination: Pagination
+        search: String
+        sort: Sort
+    ): [User!]!
+    user(userId: ID!): User
+}
+
+type User {
+    userId: ID!
+    username: String!
+    contact: String!
+}

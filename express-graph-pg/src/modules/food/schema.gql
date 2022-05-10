@@ -1,0 +1,15 @@
+type Query {
+    foods(
+        pagination: Pagination
+        search: String
+        sort: FoodSort
+    ): [Food!]!
+    food(foodId: ID!): Food
+}
+
+type Food {
+    foodId: ID!
+    foodname: String!
+    foodImg: String!
+    foodPrice: Int!
+}
