@@ -1,0 +1,26 @@
+## pagination input
+input Pagination {
+    page: Int
+    limit: Int
+}
+
+input Sort {
+    byDate: SortOptions
+    byName: SortOptions
+}
+
+## enum types
+enum SortOptions {
+    toLargest
+    toSmallest
+}
+
+## object types
+type MutationResponse {
+    status: Int!
+    message: String!
+    data: GlobalType!
+}
+
+## union types
+union GlobalType = User | Food

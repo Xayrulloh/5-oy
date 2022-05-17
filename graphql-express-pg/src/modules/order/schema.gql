@@ -1,0 +1,29 @@
+type Query {
+    users(
+        pagination: Pagination
+        search: String
+        sort: Sort
+    ): [User!]!
+    user(userId: ID!): User
+}
+
+type Mutation {
+    addUser(
+        username: String!
+        contact: String!
+    ): MutationResponse!
+
+    changeUser(
+        userId: ID!
+        username: String
+        contact: String
+    ): MutationResponse!
+
+    deleteUser(userId: ID!): MutationResponse!
+}
+
+type User {
+    userId: ID!
+    username: String!
+    contact: String!
+}

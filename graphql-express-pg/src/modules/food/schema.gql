@@ -1,0 +1,32 @@
+type Query {
+    foods(
+        pagination: Pagination
+        search: String
+        sort: Sort
+    ): [Food!]!
+    food(foodId: ID!): Food
+}
+
+type Mutation {
+    addFood(
+        foodname: String!
+        foodimg: String!
+        foodprice: Int!
+    ): MutationResponse!
+
+    changeFood(
+        foodId: ID!
+        foodname: String
+        foodimg: String
+        foodprice: Int!
+    ): MutationResponse!
+
+    deleteFood(foodId: ID!): MutationResponse!
+}
+
+type Food {
+    foodId: ID!
+    foodname: String!
+    foodimg: String!
+    foodprice: Int!
+}
